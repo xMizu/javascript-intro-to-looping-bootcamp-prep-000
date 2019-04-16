@@ -13,9 +13,10 @@ function forLoop(array) {
 }
 
 function doWhileLoop(int) {
-  function incrementVariable(int) {
-    int++;
-    return int;
+  function incrementVariable() {
+    i = 0;
+    i++;
+    return i;
   }
   do { console.log('I run once regardless');
   }
