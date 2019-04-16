@@ -11,3 +11,11 @@ function forLoop(array) {
     }}
     return array;
 }
+
+function doWhile(int) {
+  function incrementVariable () {
+    i =+ i;
+  }
+  do { console.log('I run once regardless');
+}
+    while (incrementVariable() < int);}
