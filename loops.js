@@ -13,9 +13,9 @@ function forLoop(array) {
 }
 
 function doWhile(int) {
-  function incrementVariable(i) {
-    i++;
-    return i;
+  function incrementVariable(int) {
+    int++;
+    return int;
   }
   do { console.log('I run once regardless');
   }
