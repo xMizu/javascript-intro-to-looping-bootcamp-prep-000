@@ -12,7 +12,7 @@ function forLoop(array) {
     return array;
 }
 
-function doWhile(int) {
+function doWhileLoop(int) {
   function incrementVariable(int) {
     int++;
     return int;
