@@ -13,8 +13,8 @@ function forLoop(array) {
 }
 
 function doWhileLoop(int) {
+  i = 0;
   function incrementVariable() {
-    i = 0;
     i++;
     return i;
   }
